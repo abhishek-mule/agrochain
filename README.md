@@ -15,37 +15,22 @@ flowchart TD
     C --> F
 
     %% Frontend Layer
-    F[Frontend Layer
-    - React + TypeScript
-    - Tailwind CSS
-    - PWA + Offline Mode]
+    F[Frontend Layer\n- React + TypeScript\n- Tailwind CSS\n- PWA + Offline Mode]
 
     F --> G
 
     %% API Gateway
-    G[API Gateway
-    - Rate Limiting
-    - Authentication
-    - Load Balancing]
+    G[API Gateway\n- Rate Limiting\n- Authentication\n- Load Balancing]
 
     G --> H
     G --> I
     G --> J
 
-
     %% Blockchain
-    H[Blockchain
-    - Polygon
-    - Smart Contracts]
+    H[Blockchain\n- Polygon\n- Smart Contracts]
 
     %% Backend
-    I[Backend APIs
-    - Node.js
-    - Supabase
-    - Redis Cache]
+    I[Backend APIs\n- Node.js\n- Supabase\n- Redis Cache]
 
     %% File Storage
-    J[File Storage
-    - IPFS / Pinata
-    - Image CDN
-    - Video Stream]
+    J[File Storage\n- IPFS / Pinata\n- Image CDN\n- Video Stream]
