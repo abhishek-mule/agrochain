@@ -26,6 +26,7 @@ flowchart TD
     G --> I
     G --> J
 
+
     %% Blockchain
     H[⛓ Blockchain<br/>• Polygon<br/>• Smart Contracts]
 
